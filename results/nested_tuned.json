@@ -1,0 +1,438 @@
+{
+ "label": "y",
+ "quick": false,
+ "models": {
+  "rf": {
+   "blocks": {
+    "M0  persistence": {
+     "n_features": 1,
+     "pr_auc": 0.20493853579537355,
+     "pr_auc_sd": 0.01942393208456531,
+     "roc_auc": 0.5186427324682603,
+     "roc_auc_sd": 0.02165762894907659,
+     "prevalence": 0.1872749099639856,
+     "chosen_per_fold": [
+      {
+       "max_depth": null,
+       "min_samples_leaf": 20,
+       "n_estimators": 300
+      },
+      {
+       "max_depth": null,
+       "min_samples_leaf": 5,
+       "n_estimators": 300
+      },
+      {
+       "max_depth": null,
+       "min_samples_leaf": 5,
+       "n_estimators": 300
+      },
+      {
+       "max_depth": null,
+       "min_samples_leaf": 20,
+       "n_estimators": 300
+      },
+      {
+       "max_depth": null,
+       "min_samples_leaf": 20,
+       "n_estimators": 300
+      }
+     ]
+    },
+    "M1  + wellness": {
+     "n_features": 9,
+     "pr_auc": 0.22044667850124594,
+     "pr_auc_sd": 0.012667558480328621,
+     "roc_auc": 0.5466620415861388,
+     "roc_auc_sd": 0.022652489220269103,
+     "prevalence": 0.1872749099639856,
+     "chosen_per_fold": [
+      {
+       "max_depth": null,
+       "min_samples_leaf": 20,
+       "n_estimators": 300
+      },
+      {
+       "max_depth": null,
+       "min_samples_leaf": 20,
+       "n_estimators": 300
+      },
+      {
+       "max_depth": null,
+       "min_samples_leaf": 20,
+       "n_estimators": 300
+      },
+      {
+       "max_depth": null,
+       "min_samples_leaf": 20,
+       "n_estimators": 300
+      },
+      {
+       "max_depth": 12,
+       "min_samples_leaf": 20,
+       "n_estimators": 300
+      }
+     ]
+    },
+    "M2  + training load": {
+     "n_features": 24,
+     "pr_auc": 0.29369692159669136,
+     "pr_auc_sd": 0.029903564979523227,
+     "roc_auc": 0.6228463488871628,
+     "roc_auc_sd": 0.0327311762125993,
+     "prevalence": 0.1872749099639856,
+     "chosen_per_fold": [
+      {
+       "max_depth": 12,
+       "min_samples_leaf": 20,
+       "n_estimators": 300
+      },
+      {
+       "max_depth": 12,
+       "min_samples_leaf": 20,
+       "n_estimators": 300
+      },
+      {
+       "max_depth": 12,
+       "min_samples_leaf": 20,
+       "n_estimators": 300
+      },
+      {
+       "max_depth": 12,
+       "min_samples_leaf": 20,
+       "n_estimators": 300
+      },
+      {
+       "max_depth": 12,
+       "min_samples_leaf": 20,
+       "n_estimators": 300
+      }
+     ]
+    },
+    "M3  + GPS": {
+     "n_features": 32,
+     "pr_auc": 0.3261318048224387,
+     "pr_auc_sd": 0.04013459864601486,
+     "roc_auc": 0.6512251215257507,
+     "roc_auc_sd": 0.031418137048030634,
+     "prevalence": 0.1872749099639856,
+     "chosen_per_fold": [
+      {
+       "max_depth": null,
+       "min_samples_leaf": 5,
+       "n_estimators": 300
+      },
+      {
+       "max_depth": null,
+       "min_samples_leaf": 20,
+       "n_estimators": 300
+      },
+      {
+       "max_depth": null,
+       "min_samples_leaf": 20,
+       "n_estimators": 300
+      },
+      {
+       "max_depth": 12,
+       "min_samples_leaf": 20,
+       "n_estimators": 300
+      },
+      {
+       "max_depth": 12,
+       "min_samples_leaf": 20,
+       "n_estimators": 300
+      }
+     ]
+    }
+   },
+   "deltas": {
+    "M0  persistence -> M1  + wellness": {
+     "delta_pr_auc": {
+      "mean": 0.017418375204628907,
+      "lo": 0.0038305068184686136,
+      "hi": 0.031290492350863966,
+      "p_gt_0": 0.997
+     },
+     "delta_roc_auc": {
+      "mean": 0.03747731549635139,
+      "lo": 0.011514660511970077,
+      "hi": 0.06483058226360758,
+      "p_gt_0": 1.0
+     },
+     "n_boot": 1000
+    },
+    "M1  + wellness -> M2  + training load": {
+     "delta_pr_auc": {
+      "mean": 0.07228036771156564,
+      "lo": 0.0385363090866977,
+      "hi": 0.11105563124876675,
+      "p_gt_0": 1.0
+     },
+     "delta_roc_auc": {
+      "mean": 0.07499329584741665,
+      "lo": 0.03895566067778457,
+      "hi": 0.11115195604920572,
+      "p_gt_0": 1.0
+     },
+     "n_boot": 1000
+    },
+    "M2  + training load -> M3  + GPS": {
+     "delta_pr_auc": {
+      "mean": 0.016243390527997316,
+      "lo": -0.005353576337341387,
+      "hi": 0.04236220521428728,
+      "p_gt_0": 0.93
+     },
+     "delta_roc_auc": {
+      "mean": 0.017953345345883057,
+      "lo": 0.00016473209665919552,
+      "hi": 0.036831242888317677,
+      "p_gt_0": 0.976
+     },
+     "n_boot": 1000
+    },
+    "M0  persistence -> M3  + GPS": {
+     "delta_pr_auc": {
+      "mean": 0.10594213344419186,
+      "lo": 0.058955546969865616,
+      "hi": 0.1597424623862086,
+      "p_gt_0": 1.0
+     },
+     "delta_roc_auc": {
+      "mean": 0.1304239566896511,
+      "lo": 0.07984632975145647,
+      "hi": 0.17982362542903088,
+      "p_gt_0": 1.0
+     },
+     "n_boot": 1000
+    }
+   }
+  },
+  "xgb": {
+   "blocks": {
+    "M0  persistence": {
+     "n_features": 1,
+     "pr_auc": 0.20070683728633662,
+     "pr_auc_sd": 0.016431516760030646,
+     "roc_auc": 0.5152716339075232,
+     "roc_auc_sd": 0.025386390692995888,
+     "prevalence": 0.1872749099639856,
+     "chosen_per_fold": [
+      {
+       "learning_rate": 0.05,
+       "max_depth": 4,
+       "n_estimators": 400,
+       "reg_lambda": 5.0
+      },
+      {
+       "learning_rate": 0.05,
+       "max_depth": 4,
+       "n_estimators": 400,
+       "reg_lambda": 1.0
+      },
+      {
+       "learning_rate": 0.05,
+       "max_depth": 6,
+       "n_estimators": 400,
+       "reg_lambda": 5.0
+      },
+      {
+       "learning_rate": 0.1,
+       "max_depth": 6,
+       "n_estimators": 400,
+       "reg_lambda": 1.0
+      },
+      {
+       "learning_rate": 0.1,
+       "max_depth": 6,
+       "n_estimators": 400,
+       "reg_lambda": 1.0
+      }
+     ]
+    },
+    "M1  + wellness": {
+     "n_features": 9,
+     "pr_auc": 0.20792465819247324,
+     "pr_auc_sd": 0.015273352437278837,
+     "roc_auc": 0.5301336230127693,
+     "roc_auc_sd": 0.013174184992148114,
+     "prevalence": 0.1872749099639856,
+     "chosen_per_fold": [
+      {
+       "learning_rate": 0.05,
+       "max_depth": 3,
+       "n_estimators": 400,
+       "reg_lambda": 5.0
+      },
+      {
+       "learning_rate": 0.1,
+       "max_depth": 4,
+       "n_estimators": 400,
+       "reg_lambda": 5.0
+      },
+      {
+       "learning_rate": 0.05,
+       "max_depth": 3,
+       "n_estimators": 400,
+       "reg_lambda": 5.0
+      },
+      {
+       "learning_rate": 0.05,
+       "max_depth": 3,
+       "n_estimators": 400,
+       "reg_lambda": 5.0
+      },
+      {
+       "learning_rate": 0.05,
+       "max_depth": 3,
+       "n_estimators": 400,
+       "reg_lambda": 5.0
+      }
+     ]
+    },
+    "M2  + training load": {
+     "n_features": 24,
+     "pr_auc": 0.2767367616457657,
+     "pr_auc_sd": 0.031726563385279065,
+     "roc_auc": 0.6029498800775237,
+     "roc_auc_sd": 0.03079118866913062,
+     "prevalence": 0.1872749099639856,
+     "chosen_per_fold": [
+      {
+       "learning_rate": 0.05,
+       "max_depth": 3,
+       "n_estimators": 400,
+       "reg_lambda": 1.0
+      },
+      {
+       "learning_rate": 0.05,
+       "max_depth": 3,
+       "n_estimators": 400,
+       "reg_lambda": 5.0
+      },
+      {
+       "learning_rate": 0.05,
+       "max_depth": 3,
+       "n_estimators": 400,
+       "reg_lambda": 5.0
+      },
+      {
+       "learning_rate": 0.05,
+       "max_depth": 3,
+       "n_estimators": 400,
+       "reg_lambda": 5.0
+      },
+      {
+       "learning_rate": 0.05,
+       "max_depth": 3,
+       "n_estimators": 400,
+       "reg_lambda": 5.0
+      }
+     ]
+    },
+    "M3  + GPS": {
+     "n_features": 32,
+     "pr_auc": 0.3029767234496458,
+     "pr_auc_sd": 0.042605774707232376,
+     "roc_auc": 0.622597647635286,
+     "roc_auc_sd": 0.024011323903997923,
+     "prevalence": 0.1872749099639856,
+     "chosen_per_fold": [
+      {
+       "learning_rate": 0.05,
+       "max_depth": 3,
+       "n_estimators": 400,
+       "reg_lambda": 5.0
+      },
+      {
+       "learning_rate": 0.1,
+       "max_depth": 6,
+       "n_estimators": 400,
+       "reg_lambda": 5.0
+      },
+      {
+       "learning_rate": 0.05,
+       "max_depth": 3,
+       "n_estimators": 400,
+       "reg_lambda": 5.0
+      },
+      {
+       "learning_rate": 0.05,
+       "max_depth": 3,
+       "n_estimators": 400,
+       "reg_lambda": 1.0
+      },
+      {
+       "learning_rate": 0.05,
+       "max_depth": 3,
+       "n_estimators": 400,
+       "reg_lambda": 5.0
+      }
+     ]
+    }
+   },
+   "deltas": {
+    "M0  persistence -> M1  + wellness": {
+     "delta_pr_auc": {
+      "mean": 0.008828537564871907,
+      "lo": -0.007363587982648376,
+      "hi": 0.026539718075069937,
+      "p_gt_0": 0.852
+     },
+     "delta_roc_auc": {
+      "mean": 0.021111806772699984,
+      "lo": -0.009442359741190006,
+      "hi": 0.052102489265574245,
+      "p_gt_0": 0.913
+     },
+     "n_boot": 1000
+    },
+    "M1  + wellness -> M2  + training load": {
+     "delta_pr_auc": {
+      "mean": 0.06790423731903698,
+      "lo": 0.043722101200413116,
+      "hi": 0.09402580827305485,
+      "p_gt_0": 1.0
+     },
+     "delta_roc_auc": {
+      "mean": 0.07296687954413839,
+      "lo": 0.04495120520472623,
+      "hi": 0.09988894500527283,
+      "p_gt_0": 1.0
+     },
+     "n_boot": 1000
+    },
+    "M2  + training load -> M3  + GPS": {
+     "delta_pr_auc": {
+      "mean": 0.02087560072840251,
+      "lo": 0.002069534884720005,
+      "hi": 0.04045322877381483,
+      "p_gt_0": 0.986
+     },
+     "delta_roc_auc": {
+      "mean": 0.010846418764825694,
+      "lo": -0.01166311356559871,
+      "hi": 0.038308823560779484,
+      "p_gt_0": 0.809
+     },
+     "n_boot": 1000
+    },
+    "M0  persistence -> M3  + GPS": {
+     "delta_pr_auc": {
+      "mean": 0.09760837561231141,
+      "lo": 0.058464016394789486,
+      "hi": 0.13848768624223007,
+      "p_gt_0": 1.0
+     },
+     "delta_roc_auc": {
+      "mean": 0.10492510508166406,
+      "lo": 0.06128208670411753,
+      "hi": 0.14383678483617124,
+      "p_gt_0": 1.0
+     },
+     "n_boot": 1000
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,10 @@
+,synthetic,real,rank_synthetic,rank_real
+RPE,0.8673956,0.21669008,3,1
+cumulative_fatigue_score,0.82564855,0.19698346,4,2
+7_day_workload_average,1.0630285,0.17248118,1,3
+ACWR,0.25656554,0.15647477,9,4
+muscle_soreness,0.92022127,0.13355449,2,5
+session_load_au,0.7694688,0.081878334,6,6
+session_duration_minutes,0.43518224,0.06942132,8,7
+sleep_quality,0.7021406,0.06557995,7,8
+mood_score,0.7788997,0.035314158,5,9

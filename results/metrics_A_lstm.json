@@ -1,0 +1,48 @@
+{
+  "lstm": {
+    "grouped": {
+      "n": {
+        "mean": 2306.6,
+        "std": 427.9736
+      },
+      "positives": {
+        "mean": 385.6,
+        "std": 70.4347
+      },
+      "balanced_accuracy": {
+        "mean": 0.5155,
+        "std": 0.0136
+      },
+      "precision": {
+        "mean": 0.1805,
+        "std": 0.017
+      },
+      "recall": {
+        "mean": 0.386,
+        "std": 0.101
+      },
+      "f1": {
+        "mean": 0.241,
+        "std": 0.0236
+      },
+      "roc_auc": {
+        "mean": 0.5143,
+        "std": 0.0132
+      },
+      "pr_auc": {
+        "mean": 0.1806,
+        "std": 0.0127
+      },
+      "prevalence": {
+        "mean": 0.1673,
+        "std": 0.0043
+      },
+      "pr_auc_lift": {
+        "mean": 1.0784,
+        "std": 0.0494
+      },
+      "n_folds": 5,
+      "total_folds": 5
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "n_events": 2150,
+  "n_recovered": 1935,
+  "recovered_share": 0.9,
+  "median_recovery_days": 3.0,
+  "mean_recovery_days": 3.494,
+  "player_median_min": 2.0,
+  "player_median_max": 4.0,
+  "spearman_load_vs_recovery": {
+    "rho": -0.0128,
+    "p": 0.5746439862347406
+  },
+  "spearman_elevation_vs_recovery": {
+    "rho": 0.3363,
+    "p": 2.322988736394675e-52
+  },
+  "distribution": {
+    "2": 759,
+    "3": 494,
+    "4": 246,
+    "5": 160,
+    "6": 111,
+    "7": 76,
+    "8": 44,
+    "9": 23,
+    "10": 22
+  }
+}

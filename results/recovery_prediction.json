@@ -1,0 +1,16 @@
+{
+  "n": 1935,
+  "mae": 1.347,
+  "mae_baseline": 1.279,
+  "improvement_pct": -5.3,
+  "spearman_rho": 0.3001,
+  "spearman_p": 1.4742700965379346e-41,
+  "importance": {
+    "peak_elevation": 0.3884,
+    "baseline": 0.191,
+    "acwr": 0.1813,
+    "load_z": 0.1515,
+    "load": 0.0879,
+    "gps_distance": 0.0
+  }
+}

@@ -1,0 +1,5 @@
+label,defined_rows,positives,prevalence,players_with_0_positives,min_player_prevalence,max_player_prevalence
+label_A_hooper_1.0sd,13824,2305,0.1667,0,0.107,0.236
+label_B_readiness_tertile,15627,2815,0.1801,0,0.039,0.32
+label_C_hooper_1.5sd,13824,1233,0.0892,0,0.059,0.139
+label_D_hooper_0.5sd,13824,4072,0.2946,0,0.179,0.385

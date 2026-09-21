@@ -1,0 +1,46 @@
+{
+  "brier": 0.1565,
+  "brier_baserate": 0.1389,
+  "bins": [
+    {
+      "predicted": 0.1346,
+      "observed": 0.1056
+    },
+    {
+      "predicted": 0.1861,
+      "observed": 0.1259
+    },
+    {
+      "predicted": 0.2177,
+      "observed": 0.1339
+    },
+    {
+      "predicted": 0.244,
+      "observed": 0.1359
+    },
+    {
+      "predicted": 0.2699,
+      "observed": 0.1527
+    },
+    {
+      "predicted": 0.2964,
+      "observed": 0.1548
+    },
+    {
+      "predicted": 0.3256,
+      "observed": 0.1555
+    },
+    {
+      "predicted": 0.3609,
+      "observed": 0.1932
+    },
+    {
+      "predicted": 0.41,
+      "observed": 0.22
+    },
+    {
+      "predicted": 0.5197,
+      "observed": 0.2899
+    }
+  ]
+}

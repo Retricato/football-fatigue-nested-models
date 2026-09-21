@@ -1,0 +1,139 @@
+{
+  "xgb": {
+    "skf": {
+      "n": {
+        "mean": 2764.8,
+        "std": 0.4
+      },
+      "positives": {
+        "mean": 461.0,
+        "std": 0.0
+      },
+      "balanced_accuracy": {
+        "mean": 0.5793,
+        "std": 0.0091
+      },
+      "precision": {
+        "mean": 0.244,
+        "std": 0.0092
+      },
+      "recall": {
+        "mean": 0.4173,
+        "std": 0.0164
+      },
+      "f1": {
+        "mean": 0.3079,
+        "std": 0.0113
+      },
+      "roc_auc": {
+        "mean": 0.6085,
+        "std": 0.0143
+      },
+      "pr_auc": {
+        "mean": 0.2503,
+        "std": 0.0166
+      },
+      "prevalence": {
+        "mean": 0.1667,
+        "std": 0.0
+      },
+      "pr_auc_lift": {
+        "mean": 1.5012,
+        "std": 0.0997
+      },
+      "n_folds": 5,
+      "skipped_folds": 0,
+      "total_folds": 5
+    },
+    "grouped": {
+      "n": {
+        "mean": 2764.8,
+        "std": 464.0144
+      },
+      "positives": {
+        "mean": 461.0,
+        "std": 81.1813
+      },
+      "balanced_accuracy": {
+        "mean": 0.5636,
+        "std": 0.0093
+      },
+      "precision": {
+        "mean": 0.227,
+        "std": 0.0105
+      },
+      "recall": {
+        "mean": 0.4025,
+        "std": 0.0404
+      },
+      "f1": {
+        "mean": 0.2894,
+        "std": 0.0133
+      },
+      "roc_auc": {
+        "mean": 0.5883,
+        "std": 0.0176
+      },
+      "pr_auc": {
+        "mean": 0.2358,
+        "std": 0.0251
+      },
+      "prevalence": {
+        "mean": 0.1666,
+        "std": 0.0045
+      },
+      "pr_auc_lift": {
+        "mean": 1.4156,
+        "std": 0.1452
+      },
+      "n_folds": 5,
+      "skipped_folds": 0,
+      "total_folds": 5
+    },
+    "lopo": {
+      "n": {
+        "mean": 384.0,
+        "std": 147.4131
+      },
+      "positives": {
+        "mean": 64.0278,
+        "std": 25.0216
+      },
+      "balanced_accuracy": {
+        "mean": 0.5675,
+        "std": 0.048
+      },
+      "precision": {
+        "mean": 0.2364,
+        "std": 0.0555
+      },
+      "recall": {
+        "mean": 0.4012,
+        "std": 0.1358
+      },
+      "f1": {
+        "mean": 0.2903,
+        "std": 0.0691
+      },
+      "roc_auc": {
+        "mean": 0.5937,
+        "std": 0.0592
+      },
+      "pr_auc": {
+        "mean": 0.2618,
+        "std": 0.0678
+      },
+      "prevalence": {
+        "mean": 0.1677,
+        "std": 0.0243
+      },
+      "pr_auc_lift": {
+        "mean": 1.5771,
+        "std": 0.4314
+      },
+      "n_folds": 36,
+      "skipped_folds": 0,
+      "total_folds": 36
+    }
+  }
+}

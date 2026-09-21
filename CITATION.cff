@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite it as below, and cite the SoccerMon dataset separately (see data/README.md)."
+title: "Nested-model decomposition of next-day fatigue prediction in elite women's football"
+abstract: >-
+  Code and results for a nested-model analysis of what each class of athlete
+  monitoring data adds over a persistence baseline when predicting next-day
+  subjective fatigue. Uses the open SoccerMon dataset. Evaluated under nested
+  cross-validation with player-wise grouping in both loops, with confidence
+  intervals bootstrapped over players.
+type: software
+authors:
+  - given-names: Siddharth
+    family-names: Kokate
+    affiliation: "SRH Berlin University of Applied Sciences"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"   # add yours
+license: MIT
+version: "1.0.0"
+date-released: "2026-09-21"
+keywords:
+  - athlete monitoring
+  - training load
+  - wellness
+  - machine learning
+  - baseline models
+  - calibration
+  - football
+# repository-code: "https://github.com/<you>/football-fatigue-nested-models"
+# doi: "10.5281/zenodo.XXXXXXX"      # fill in after the Zenodo deposit

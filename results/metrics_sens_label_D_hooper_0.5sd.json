@@ -1,0 +1,49 @@
+{
+  "xgb": {
+    "grouped": {
+      "n": {
+        "mean": 2764.8,
+        "std": 726.3199
+      },
+      "positives": {
+        "mean": 814.4,
+        "std": 224.2013
+      },
+      "balanced_accuracy": {
+        "mean": 0.5755,
+        "std": 0.0124
+      },
+      "precision": {
+        "mean": 0.3816,
+        "std": 0.0154
+      },
+      "recall": {
+        "mean": 0.4856,
+        "std": 0.0949
+      },
+      "f1": {
+        "mean": 0.4221,
+        "std": 0.0306
+      },
+      "roc_auc": {
+        "mean": 0.6023,
+        "std": 0.0184
+      },
+      "pr_auc": {
+        "mean": 0.3875,
+        "std": 0.0246
+      },
+      "prevalence": {
+        "mean": 0.2934,
+        "std": 0.0095
+      },
+      "pr_auc_lift": {
+        "mean": 1.3232,
+        "std": 0.1078
+      },
+      "n_folds": 5,
+      "skipped_folds": 0,
+      "total_folds": 5
+    }
+  }
+}
