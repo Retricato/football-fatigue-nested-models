@@ -1,5 +1,7 @@
 # Does wellness self-report earn its place? A nested-model decomposition of next-day fatigue prediction
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22876422.svg)](https://doi.org/10.5281/zenodo.22876422)
+
 Code and results for a study of what each class of athlete monitoring data
 adds over a persistence baseline, using the open
 [SoccerMon](https://doi.org/10.5281/zenodo.10033832) dataset from two elite
@@ -134,8 +136,29 @@ independent observations and produce intervals far too narrow.
 ## Citing this
 
 If you use this code, please cite both the repository and the underlying
-dataset. See `CITATION.cff` for the repository, and `data/README.md` for the
-SoccerMon attribution that the CC BY 4.0 licence requires.
+dataset.
+
+**This repository:**
+
+> Kokate, S. (2026). *Nested-model decomposition of next-day fatigue
+> prediction in elite women's football* (v1.0.0). Zenodo.
+> https://doi.org/10.5281/zenodo.22876422
+
+```bibtex
+@software{kokate2026nested,
+  author    = {Kokate, Siddharth},
+  title     = {Nested-model decomposition of next-day fatigue prediction
+               in elite women's football},
+  version   = {1.0.0},
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.22876422},
+  url       = {https://github.com/Retricato/football-fatigue-nested-models}
+}
+```
+
+**The SoccerMon dataset** must be cited separately. The CC BY 4.0 licence
+requires it. See `data/README.md` for both entries.
 
 ## Licence
 
