@@ -12,7 +12,7 @@ authors:
   - given-names: Siddharth
     family-names: Kokate
     affiliation: "SRH Berlin University of Applied Sciences"
-    # orcid: "https://orcid.org/0000-0000-0000-0000"   # add yours if you have one
+  
 license: MIT
 version: "1.0.0"
 date-released: "2026-09-21"
